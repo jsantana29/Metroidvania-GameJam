@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class DebugText : MonoBehaviour
 {
-    [SerializeField] private GameObject _player;
+    [SerializeField] private PlayerController _ctx;
     private TextMeshProUGUI _text;
 
-    void Awake()
+    private void Awake()
     {
         _text = GetComponent<TextMeshProUGUI>();
     }
@@ -18,9 +18,8 @@ public class DebugText : MonoBehaviour
         UpdateText();
     }
 
-    void UpdateText()
+    private void UpdateText()
     {
-        _text.text = _player.GetComponent<Move>().ToString() +
-                     _player.GetComponent<Jump>().ToString();
+        _text.SetText(""); 
     }
 }

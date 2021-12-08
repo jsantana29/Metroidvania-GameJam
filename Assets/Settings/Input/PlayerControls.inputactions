@@ -16,15 +16,15 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "a3a17148-0116-4067-bc0f-8dcabadd51d9",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
-                    "name": "Action",
+                    "name": "Dash",
                     "type": "Button",
                     "id": "49021f10-fbef-4be0-a735-d5ca4afb41ad",
                     "expectedControlType": "Button",
@@ -173,7 +173,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Default",
-                    "action": "Action",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -184,7 +184,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Default",
-                    "action": "Action",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

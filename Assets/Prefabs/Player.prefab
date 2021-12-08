@@ -120,9 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030439670017783013}
   - component: {fileID: 2030439670017783018}
-  - component: {fileID: 2030439670017783008}
-  - component: {fileID: 2030439670017783009}
-  - component: {fileID: 5951116325470697534}
+  - component: {fileID: 8727032256194063376}
   - component: {fileID: 2030439670017783014}
   - component: {fileID: 2030439670017783012}
   - component: {fileID: 2030439670017783011}
@@ -202,7 +200,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2030439670017783008
+--- !u!114 &8727032256194063376
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,40 +209,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2030439670017783016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5535b138b88d9f4197f1c3c72d314d5, type: 3}
+  m_Script: {fileID: 11500000, guid: dfff170c93c624346ab77b16d12c6a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 6
   maxAcceleration: 35
   maxAirAcceleration: 20
---- !u!114 &2030439670017783009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030439670017783016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629294c913973c04787ccc49333a704c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpHeight: 10
-  maxAirJumps: 1
-  downwardMovementMultiplier: 5
-  upwardMovementMultiplier: 3
---- !u!114 &5951116325470697534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030439670017783016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e705968f4e15845b50d2fa7933d369, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  jumpVelocity: 5
+  fallMultiplier: 4
+  lowFallMultiplier: 3
 --- !u!114 &2030439670017783014
 MonoBehaviour:
   m_ObjectHideFlags: 0
